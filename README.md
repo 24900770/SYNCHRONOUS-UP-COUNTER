@@ -32,17 +32,15 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-1.Initialize the shift register to a known state (e.g., all zeros).
+Type the program in Quartus software.
 
-2.Input a bit serially into the shift register.
+Compile and run the program.
 
-3.Shift the contents of the register one position to the right (or left).
+Generate the RTL schematic and save the logic diagram.
 
-4.Output the shifted bit from the last stage of the register.
+Create nodes for inputs and outputs to generate the timing diagram.
 
-5.Repeat steps 2-4 for each bit you want to input and shift.
-
-
+For different input combinations generate the timing diagram
 
 
 **PROGRAM**
